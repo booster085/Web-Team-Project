@@ -1,0 +1,3 @@
+http://webbies.dk/assets/files/SudoSlider/package/demos/rich%20content.html
+
+http://www.sitepoint.com/web-foundations/making-simple-image-slider-html-css-jquery/
