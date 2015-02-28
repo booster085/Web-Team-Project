@@ -93,14 +93,14 @@ text {
 @media screen and (max-width: 1024px) {
     .box {
         width: 264px;
-        min-height: 264px;
-        line-height: 264px;
+        min-height: 208px;
+        line-height: 208px;
         padding: 20px;
         margin: 0px -2px;
     }
     .one {
         width: 264px;
-        min-height: 264px;
+        min-height: 208px;
 
         padding: 20px;
         margin: 0px -2px;

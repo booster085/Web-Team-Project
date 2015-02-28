@@ -1,0 +1,116 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    max-height: 100%;
+}
+#wrapper {
+    width: 99%;
+    margin: 2% auto;
+    text-align: center;
+
+}
+nav {
+    vertical-align: top;
+}
+.menu {
+    font-family: bangers;
+    color:white;
+    letter-spacing: 5px;
+    width: 21%;
+    height: 0;
+    font-size: 2em;
+    line-height: 0;
+    padding-top: calc(2% + 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: calc(2% + 20px);
+    margin: 0.8% 0.1%;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+}
+p {
+    display: none;
+    margin: 0;
+}
+#fun{
+    font-family: chewy;
+    background-image: url("../images/5.png");
+    background-size: cover;
+}
+#video{
+    font-family: fredoka;
+    background-image: url("../images/1.png");
+    background-size: cover;
+}
+#team{
+    font-family: lucky;
+    background-image: url("../images/3.png");
+    background-size: cover;
+}
+#assd{
+    font-family: lucky;
+    background-image: url("../images/6.png");
+    background-size: cover;
+}
+text {
+    margin: 0px;
+}
+section {
+    width: 100%;
+    background-color: white;
+    color: #1a6;
+    font-family: fredoka;
+    z-index: -1;
+}
+
+@media screen and (max-width: 639px) {
+    .menu {
+        font-family: bangers;
+        color:white;
+        letter-spacing: 5px;
+        width: 18%;
+        min-width: 23px;
+        height: 0;
+        font-size: 2em;
+        line-height: 0;
+        padding-top: calc(2% + 20px);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: calc(2% + 20px);
+        margin: 0.8% 0.1%;
+        text-align: center;
+        z-index: 1;
+        display: inline-block;
+
+    }
+    text {
+    margin: 0px;
+    display: none;
+}
+p {
+    display: inherit;
+}
+}
+
+@font-face {
+    font-family: chewy;
+    src: url(../Fonts/Chewy/Chewy.ttf);
+}
+
+@font-face {
+    font-family: fredoka;
+    src: url(../Fonts/Fredoka_One/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: lucky;
+    src: url(../Fonts/Luckiest_Guy/LuckiestGuy.ttf);
+}
+
+@font-face {
+    font-family: bangers;
+    src: url(../Fonts/Bangers/Bangers.ttf);
+}
