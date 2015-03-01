@@ -7,7 +7,7 @@ body {
 }
 #wrapper {
     width: 99%;
-    margin: 2% auto;
+    margin: 3% auto;
     text-align: center;
 
 }
@@ -48,6 +48,29 @@ body {
     background-image: url("6.png");
 }
 
+footer > div{
+    display: inline-block;
+}
+
+.validator-html{
+    background-image: url("validator-html.png");
+    background-size: cover;
+    width: 82px;
+    height: 17px;
+    margin-left: 1%;
+}
+.validator-css{
+    background-image: url("validator-css.png");
+    background-size: cover;
+    width: 82px;
+    height: 17px;
+    margin-left: 0.5%;
+}
+.footer-text{
+    margin-left: 70%;
+
+}
+
 .box {
     font-family: bangers;
     color:white;
@@ -86,6 +109,36 @@ body {
     margin: 0px -2px;
 }
 
+header{
+    margin-top: -3%;
+    font-family: bangers;
+    position:fixed;
+    display: block;
+    height: 30px;
+    width: 100%;
+    font-size: 21px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+
+    background: lightslategray;
+    color:#ffffff;
+    text-align: center;
+}
+
+footer {
+    font-family:bangers;
+    position: fixed;
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5em;
+    bottom: 0;
+    background: lightslategray;
+    color: white;
+    text-align: left;
+}
+
 text {
     margin: 10px;
     word-wrap: break-word;
@@ -98,13 +151,72 @@ a{
     text-decoration: none;
 }
 
+/*This is only for the footer from here: */
+@media screen and (max-width: 1870px){
+    .footer-text{
+        margin-left:68% ;
+    }
+}
+@media screen and (max-width: 1800px){
+    .footer-text{
+        margin-left: 67%;
+    }
+}
 
+@media screen and (max-width: 1688px){
+    .footer-text{
+        margin-left: 65%;
+    }
+}
+@media screen and (max-width: 1564px){
+    .footer-text{
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width: 1361px){
+    .footer-text{
+        margin-left: 55%;
+    }
+}
+
+@media screen and (max-width: 1206px){
+    .footer-text{
+        margin-left: 47%;
+    }
+}
+
+/*to here*/
+
+
+@media screen and (max-width: 1020px){
+    .validator-css{
+        display: none;
+    }
+    .validator-html{
+        display: none;
+    }
+    .footer-text{
+        margin-left: 0;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .footer-text{
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width:1440px) {
     .text-box{
         font-size: 16px;
     }
 }
+
+
 
 @media screen and  (max-width: 1200px){
     .text-box{
