@@ -25,4 +25,4 @@
 	};
 	
 	EYE.register(initLayout, 'init');
-})(jQuery)
+})(jQuery);
