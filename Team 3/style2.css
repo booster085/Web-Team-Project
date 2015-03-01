@@ -162,7 +162,7 @@ a{
 .binary:hover{
     background-image: url("binary.png");
     color:#fff;
-    text-shadow: -1px 1px 5px #03c, 1px -1px 5px #03c;
+    text-shadow: -1px 1px 5px green, 1px -1px 5px green;
 }
 
 .fun:hover{
@@ -178,6 +178,7 @@ a{
     display: inline-block;
     letter-spacing: 5px;
     font-size: 20px;
+    text-shadow: -1px 1px 5px red;
 }
 
 .video:hover{
