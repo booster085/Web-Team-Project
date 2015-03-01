@@ -9,4 +9,9 @@
 a.loading {
 	background: #fff url(../images/ajax_small.gif) no-repeat center;
 }
+@media screen and (max-width: 400px) {
+    #myGallery {
+        height: 500px;
 
+    }
+}

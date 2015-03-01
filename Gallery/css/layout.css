@@ -28,7 +28,7 @@ html, body {
 body {
 	text-align: center;
 	overflow: auto;
-    background: url(../images/Red1.png);
+    background: url(../images/Yellow5.png);
     background-size: cover;
 }
 .wrapper {
@@ -84,14 +84,33 @@ h1 {
 footer {
     position: fixed;
     display: block;
-    height: 30px;
+    height: 40px;
     width: 100%;
     font-size: 20px;
-    line-height: 1.5em;
+    line-height: 40px;
     bottom: 0;
     background: lightslategray;
     color: white;
     text-align: right;
+    padding: 0 10px;
+}
+footer > span {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer div {
+    display: inline-block;
+    background-size: cover;
+    width: 108px;
+    height: 22px;
+    float: left;
+    margin: 6px 2px;
+}
+.validator-html{
+    background-image: url(../images/validator-html.png);
+}
+.validator-css{
+    background-image: url(../images/validator-css.png);
 }
 @media screen and (max-width: 960px) {
     .wrapper {
@@ -100,10 +119,17 @@ footer {
     footer {
         font-size: 15px;
     }
+    footer > a, footer > div {
+        display: none;
+    }
 }
 @media screen and (max-width: 400px) {
     .navigationTabs li {
-        font-size: 15px;
+        display: block;
+    }
+    footer {
+        height: 20px;
+        line-height: 20px;
     }
     h1 {
         font-size: 3em;
