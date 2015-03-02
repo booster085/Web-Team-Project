@@ -69,6 +69,8 @@ body {
     text-shadow: 0 0 4px lightslategray;
 }
 .menu:hover {
+	-webkit-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
     transform: rotate(20deg);
     width: 15%;
 }
