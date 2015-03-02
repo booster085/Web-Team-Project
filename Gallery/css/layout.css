@@ -62,6 +62,8 @@ body {
     background-image: url("../images/5.png");
     font-size: 4em;
     background-size: cover;
+	-webkit-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
     transform: rotate(20deg);
     width: 15%;
 }
