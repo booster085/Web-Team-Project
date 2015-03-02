@@ -177,6 +177,12 @@ a{
     }
 }
 
+@media screen and (max-width:1440px) {
+    .text-box{
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 1361px){
     .footer-text{
         margin-left: 55%;
@@ -188,38 +194,6 @@ a{
         margin-left: 47%;
     }
 }
-
-/*to here*/
-
-
-@media screen and (max-width: 1020px){
-    .validator-css{
-        display: none;
-    }
-    .validator-html{
-        display: none;
-    }
-    .footer-text{
-        margin-left: 0;
-    }
-    footer{
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 390px){
-    .footer-text{
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .text-box{
-        font-size: 16px;
-    }
-}
-
-
 
 @media screen and  (max-width: 1200px){
     .text-box{
@@ -234,16 +208,89 @@ a{
         line-height: 208px;
         padding: 20px;
         margin: 0px -2px;
+        zoom:1;
+        *display: inline;
     }
     .text-box {
         width: 264px;
         min-height: 208px;
         font-size: 14px;
+        zoom:1;
+        *display: inline;
 
         padding: 20px;
         margin: 0px -2px;
     }
 }
+
+@media screen and (max-width: 1020px){
+    .box {
+        width: 264px;
+        min-height: 208px;
+        line-height: 208px;
+        padding: 20px;
+        margin: 0px -2px;
+        zoom:1;
+        *display: inline-block;
+    }
+    .text-box {
+        width: 264px;
+        min-height: 208px;
+        font-size: 14px;
+        zoom:1;
+        *display: inline-block;
+
+        padding: 20px;
+        margin: 0px -2px;
+    }
+
+    .validator-css{
+        display: none;
+    }
+    .validator-html{
+        display: none;
+    }
+    .footer-text{
+        margin-left: 0;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+}
+
+
+
+@media screen and (max-width: 390px){
+    .box {
+        width: 264px;
+        min-height: 208px;
+        line-height: 208px;
+        padding: 20px;
+        margin: 0px -2px;
+        zoom:1;
+        *display: inline;
+    }
+    .text-box {
+        width: 264px;
+        min-height: 208px;
+        font-size: 14px;
+        zoom:1;
+        *display: inline;
+
+        padding: 20px;
+        margin: 0px -2px;
+    }
+
+    .footer-text{
+        font-size: 15px;
+    }
+}
+
+/*to here*/
 
 @font-face {
     font-family: chewy;
