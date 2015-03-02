@@ -66,6 +66,9 @@ footer > div{
     height: 17px;
     margin-left: 0.5%;
 }
+.a{
+    display: inline-block;
+}
 .footer-text{
     margin-left: 70%;
 
@@ -227,14 +230,14 @@ a{
 @media screen and (max-width: 1024px) {
     .box {
         width: 264px;
-        min-height: 264px;
-        line-height: 264px;
+        min-height: 208px;
+        line-height: 208px;
         padding: 20px;
         margin: 0px -2px;
     }
     .text-box {
         width: 264px;
-        min-height: 264px;
+        min-height: 208px;
         font-size: 14px;
 
         padding: 20px;
