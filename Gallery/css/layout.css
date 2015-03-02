@@ -28,30 +28,75 @@ html, body {
 body {
 	text-align: center;
 	overflow: auto;
-    background: url(../images/Yellow5.png);
+    background: url(../images/wrapper_background.jpg);
     background-size: cover;
 }
 .wrapper {
-	width: 65%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-    background-color: floralwhite;
-    padding-bottom: 10%;
-    padding-top: 5%;
+    background: transparent;
+    background-size: cover;
+    padding-top: 3%;
 }
-
-h1 {
-	font-size: 5em;
-	height: 47px;
-	line-height: 47px;
-	text-transform: uppercase;
-    color: deepskyblue;
-    margin-bottom: 10%;
+.menu {
+    color:white;
+    letter-spacing: 5px;
+    width: 21%;
+    height: 0;
+    font-size: 2em;
+    line-height: 0;
+    vertical-align: top;
+    text-transform: uppercase;
+    padding-top: calc(2% + 20px);
+    padding-bottom: calc(2% + 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0.8% 0.1%;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+    transition: 1000ms;
+}
+#fun{
+    background-image: url("../images/5.png");
+    font-size: 4em;
+    background-size: cover;
+    transform: rotate(20deg);
+    width: 15%;
+}
+#fun > span, #fun > p, header a {
+    text-shadow: 0 0 4px lightslategray;
+}
+.menu:hover {
+    transform: rotate(20deg);
+    width: 15%;
+}
+#video{
+    background-image: url("../images/1.png");
+    background-size: cover;
+}
+#team{
+    background-image: url("../images/3.png");
+    background-size: cover;
+}
+#softuni{
+    background-image: url("../images/6.png");
+    background-size: cover;
+}
+nav span {
+    margin: 0px;
+}
+nav p {
+    text-transform: uppercase;
+    display: none;
 }
 .navigationTabs {
 	height: 23px;
 	line-height: 23px;
     margin-bottom: 5%;
+    margin: 5px 10px 5% 10px;
+
 }
 .navigationTabs li {
 	float: left;
@@ -61,8 +106,8 @@ h1 {
 	line-height: 23px;
 	padding-right: 3px;
 }
-.navigationTabs .selected-menu-item a {
-    color: darkcyan;
+a {
+    color: white;
 }
 .navigationTabs li a{
 	float: left;
@@ -70,7 +115,6 @@ h1 {
 	line-height: 23px;
 	padding: 0 10px;
 	overflow: hidden;
-	color: deepskyblue;
 	position: relative;
 	text-decoration: none;
 }
@@ -89,12 +133,12 @@ footer {
     font-size: 20px;
     line-height: 40px;
     bottom: 0;
-    background: lightslategray;
+    background: url(../images/carbon-texture.png);
     color: white;
     text-align: right;
     padding: 0 10px;
 }
-footer > span {
+footer span {
     display: inline-block;
     margin-right: 20px;
 }
@@ -113,26 +157,45 @@ footer div {
     background-image: url(../images/validator-css.png);
 }
 @media screen and (max-width: 960px) {
-    .wrapper {
-        width: 100%;
-    }
     footer {
         font-size: 15px;
     }
-    footer > a, footer > div {
+    .validator-css, .validator-html, footer > div {
         display: none;
     }
 }
-@media screen and (max-width: 400px) {
-    .navigationTabs li {
-        display: block;
+@media screen and (max-width: 639px) {
+    .menu {
+        color: white;
+        letter-spacing: 5px;
+        width: 18%;
+        min-width: 23px;
+        height: 0;
+        font-size: 2em;
+        line-height: 0;
+        padding-top: calc(2% + 20px);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: calc(2% + 20px);
+        margin: 0.8% 0.1%;
+        text-align: center;
+        z-index: 1;
+        display: inline-block;
+
     }
+
+    nav span {
+        margin: 0px;
+        display: none;
+    }
+    nav p {
+        display: initial;
+    }
+}
+@media screen and (max-width: 400px) {
     footer {
         height: 20px;
         line-height: 20px;
-    }
-    h1 {
-        font-size: 3em;
     }
     footer {
         font-size: 10px;
