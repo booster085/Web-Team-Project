@@ -1,0 +1,10 @@
+@media screen and (max-width: 720px) {
+    .current {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 350px) {
+    .current {
+        font-size: 1em;
+    }
+}
