@@ -1,4 +1,9 @@
-
+/**
+ *
+ * Utilities
+ * Author: Stefan Petre www.eyecon.ro
+ * 
+ */
 (function($) {
 EYE.extend({
 	getPosition : function(e, forceIt)

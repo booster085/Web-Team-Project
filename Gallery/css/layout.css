@@ -46,7 +46,7 @@ body {
     letter-spacing: 5px;
     width: 21%;
     height: 0;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 0;
     vertical-align: top;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ footer span {
     display: inline-block;
     margin-right: 20px;
 }
-footer div {
+footer article {
     display: inline-block;
     background-size: cover;
     width: 108px;
