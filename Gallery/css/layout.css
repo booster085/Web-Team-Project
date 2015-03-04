@@ -28,15 +28,17 @@ html, body {
 body {
 	text-align: center;
 	overflow: auto;
-    background: url(../images/wrapper_background.jpg);
+    background: url(../images/wrapper_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 30px;
 }
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-    background: transparent;
-    background-size: cover;
     padding-top: 3%;
 }
 .menu {
@@ -110,6 +112,7 @@ nav p {
 	height: 23px;
 	line-height: 23px;
 	padding-right: 3px;
+    width: 15%;
 }
 a {
     color: white;
@@ -163,9 +166,12 @@ footer div {
     background-image: url(../images/validator-css.png);
 }
 @media screen and (max-width: 1280px) {
-    .wrapper .tabsContent {
-        height: 500px;
-
+    .navigationTabs li {
+        margin-top: 20px;
+        width: 31%;
+    }
+    .navigationTabs li a {
+        text-shadow: 2px 2px 5px #000;
     }
 }
 @media screen and (max-width: 960px) {
@@ -179,12 +185,16 @@ footer div {
     }
 }
 @media screen and (max-width: 720px) {
-    .wrapper .tabsContent {
-        height: 600px;
-
+    .navigationTabs li {
+        margin-top: 2%;
+        width: 100%;
+    }
+    .navigationTabs li a {
+        margin: 0;
+        float: none;
     }
 }
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
     .menu {
         color: white;
         letter-spacing: 5px;
@@ -212,10 +222,6 @@ footer div {
     }
 }
 @media screen and (max-width: 400px) {
-    .wrapper .tabsContent {
-        height: 500px;
-
-    }
     footer {
         height: 20px;
         line-height: 20px;
@@ -227,9 +233,13 @@ footer div {
         letter-spacing: 2px;
         font-size: 1.5em;
     }
+    .navigationTabs li {
+        font-size: 1.5em;
+    }
 }
 @media screen and (max-width: 260px) {
     #video {
         letter-spacing: normal;
     }
 }
+
