@@ -21,9 +21,16 @@ body {
 .binary{
     transition: background-image 0.5s ease-in-out;
     background-image: url("4.png");
-
+    display: inline-block;
 }
-
+.binary > p{
+    display: inline-block;
+    margin: 5px;
+    word-break: break-all;
+}
+.binary > span{
+    font-style: italic;
+}
 .team{
     transition: background-image 0.5s ease-in-out;
     background-image: url("3.png");
