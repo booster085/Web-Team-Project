@@ -1,0 +1,245 @@
+
+fieldset,img { 
+	border:0;
+}
+ol,ul {
+	list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+@font-face {
+    font-family: bangers;
+    src: url(../Fonts/Bangers/Bangers.ttf);
+}
+html, body {
+	font-family: Bangers, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+body {
+	text-align: center;
+	overflow: auto;
+    background: url(../images/wrapper_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+    padding-top: 3%;
+}
+.menu {
+    color:white;
+    letter-spacing: 5px;
+    width: 21%;
+    height: 0;
+    font-size: 3em;
+    line-height: 0;
+    vertical-align: top;
+    text-transform: uppercase;
+    padding-top: calc(2% + 20px);
+    padding-bottom: calc(2% + 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0.8% 0.1%;
+    background-size: cover;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+    transition: 1000ms;
+}
+.current {
+    background-image: url("../images/5.png");
+    font-size: 4em;
+    background-size: cover;
+	-webkit-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    width: 15%;
+}
+#fun > span, #fun > p, header a {
+    text-shadow: 0 0 4px lightslategray;
+}
+.menu:hover {
+	-webkit-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    width: 15%;
+}
+#video{
+    background-image: url("../images/1.png");
+}
+#team{
+    background-image: url("../images/3.png");
+}
+#fun {
+    background-image: url("../images/5.png");
+}
+#softuni{
+    background-image: url("../images/6.png");
+}
+nav span {
+    margin: 0px;
+}
+nav p {
+    text-transform: uppercase;
+    display: none;
+}
+.navigationTabs {
+	height: 23px;
+	line-height: 23px;
+    margin-bottom: 5%;
+    margin: 5px 10px 5% 10px;
+
+}
+.navigationTabs li {
+	float: left;
+    display: block;
+    font-size: 2em;
+	height: 23px;
+	line-height: 23px;
+	padding-right: 3px;
+    width: 15%;
+}
+a {
+    color: white;
+}
+.navigationTabs li a{
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	padding: 0 10px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+    margin-left: 25%;
+}
+.no-selected-item a:hover {
+    opacity: 0.6;
+}
+.tabsContent {
+    position: relative;
+	overflow: hidden;
+}
+footer {
+    position: fixed;
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    bottom: 0;
+    background: url(../images/carbon-texture.png);
+    color: white;
+    text-align: right;
+    padding: 0 10px;
+}
+footer span {
+    display: inline-block;
+    margin-right: 20px;
+}
+footer article {
+    display: inline-block;
+    background-size: cover;
+    width: 108px;
+    height: 22px;
+    float: left;
+    margin: 6px 2px;
+}
+.validator-html{
+    background-image: url(../images/validator-html.png);
+}
+.validator-css{
+    background-image: url(../images/validator-css.png);
+}
+@media screen and (max-width: 1280px) {
+    .navigationTabs li {
+        margin-top: 20px;
+        width: 31%;
+    }
+    .navigationTabs li a {
+        text-shadow: 2px 2px 5px #000;
+    }
+}
+@media screen and (max-width: 960px) {
+    footer {
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .validator-css, .validator-html, footer > div {
+        display: none;
+    }
+}
+@media screen and (max-width: 720px) {
+    .navigationTabs li {
+        margin-top: 2%;
+        width: 100%;
+    }
+    .navigationTabs li a {
+        margin: 0;
+        float: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    .menu {
+        color: white;
+        letter-spacing: 5px;
+        width: 18%;
+        min-width: 23px;
+        height: 0;
+        font-size: 2em;
+        line-height: 0;
+        padding-top: calc(2% + 20px);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: calc(2% + 20px);
+        margin: 0.8% 0.1%;
+        text-align: center;
+        z-index: 1;
+        display: inline-block;
+
+    }
+    nav span {
+        margin: 0px;
+        display: none;
+    }
+    nav p {
+        display: initial;
+    }
+}
+@media screen and (max-width: 400px) {
+    footer {
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .menu {
+        letter-spacing: 2px;
+        font-size: 1.5em;
+    }
+    .navigationTabs li {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 260px) {
+    #video {
+        letter-spacing: normal;
+    }
+}
+

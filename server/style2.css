@@ -1,0 +1,375 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    max-height: 100%;
+}
+#wrapper {
+    width: 99%;
+    margin: 3% auto;
+    text-align: center;
+
+}
+
+.video{
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("1.png");
+
+}
+
+.binary{
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("4.png");
+
+}
+
+.team{
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("3.png");
+
+}
+
+.quote{
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("2.png");
+
+}
+
+.fun{
+
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("5.png");
+
+}
+
+.softuni{
+    transition: background-image 0.5s ease-in-out;
+    background-image: url("6.png");
+}
+
+footer > div{
+    display: inline-block;
+}
+
+.validator-html{
+    background-image: url("validator-html.png");
+    background-size: cover;
+    width: 82px;
+    height: 17px;
+    margin-left: 1%;
+}
+.validator-css{
+    background-image: url("validator-css.png");
+    background-size: cover;
+    width: 82px;
+    height: 17px;
+    margin-left: 0.5%;
+}
+.a{
+    display: inline-block;
+}
+.footer-text{
+    margin-left: 70%;
+
+}
+
+.box {
+    font-family: bangers;
+    color:white;
+    letter-spacing: 5px;
+    display: inline-block;
+    width: 26%;
+    min-width: 264px;
+    height: 0;
+    background-size: cover;
+    vertical-align: middle;
+    font-size: 60px;
+    line-height: 0;
+    padding-top: calc(10% + 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: calc( 10% + 20px);
+    margin: 0px -2px;
+
+}
+.text-box{
+    font-family:bangers;
+    background-size: cover;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    display: inline-block;
+    width: 26%;
+    min-width: 264px;
+    height: 0;
+    vertical-align: middle;
+    line-height: 1;
+    padding-bottom: calc(20% + 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: 0px -2px;
+}
+
+header{
+    margin-top: -3%;
+    font-family: bangers;
+    position:fixed;
+    display: block;
+    height: 30px;
+    width: 100%;
+    font-size: 21px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+
+    background: lightslategray;
+    color:#ffffff;
+    text-align: center;
+}
+
+footer {
+    font-family:bangers;
+    position: fixed;
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5em;
+    bottom: 0;
+    background: lightslategray;
+    color: white;
+    text-align: left;
+}
+
+.text-box > span {
+    margin: 10px;
+    word-wrap: break-word;
+}
+.box > span {
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.fun-more-info{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*This is only for the footer from here: */
+@media screen and (max-width: 1870px){
+    .footer-text{
+        margin-left:68% ;
+    }
+}
+@media screen and (max-width: 1800px){
+    .footer-text{
+        margin-left: 67%;
+    }
+}
+
+@media screen and (max-width: 1688px){
+    .footer-text{
+        margin-left: 65%;
+    }
+}
+@media screen and (max-width: 1564px){
+    .footer-text{
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .text-box{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1361px){
+    .footer-text{
+        margin-left: 55%;
+    }
+}
+
+@media screen and (max-width: 1206px){
+    .footer-text{
+        margin-left: 47%;
+    }
+}
+
+@media screen and  (max-width: 1200px){
+    .text-box{
+        font-size:15px ;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 264px;
+        min-height: 208px;
+        line-height: 208px;
+        padding: 20px;
+        margin: 0px -2px;
+        zoom:1;
+        *display: inline;
+    }
+    .text-box {
+        width: 264px;
+        min-height: 208px;
+        font-size: 14px;
+        zoom:1;
+        *display: inline;
+
+        padding: 20px;
+        margin: 0px -2px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .box {
+        width: 264px;
+        min-height: 208px;
+        line-height: 208px;
+        padding: 20px;
+        margin: 0px -2px;
+        zoom:1;
+        *display: inline-block;
+    }
+    .text-box {
+        width: 264px;
+        min-height: 208px;
+        font-size: 14px;
+        zoom:1;
+        *display: inline-block;
+
+        padding: 20px;
+        margin: 0px -2px;
+    }
+
+    .validator-css{
+        display: none;
+    }
+    .validator-html{
+        display: none;
+    }
+    .footer-text{
+        margin-left: 0;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 990px){
+
+}
+
+
+
+@media screen and (max-width: 390px){
+    .box {
+        width: 264px;
+        min-height: 208px;
+        line-height: 208px;
+        padding: 20px;
+        margin: 0px -2px;
+        zoom:1;
+        *display: inline;
+    }
+    .text-box {
+        width: 264px;
+        min-height: 208px;
+        font-size: 14px;
+        zoom:1;
+        *display: inline;
+
+        padding: 20px;
+        margin: 0px -2px;
+    }
+
+    .footer-text{
+        font-size: 15px;
+    }
+}
+
+/*to here*/
+
+@font-face {
+    font-family: chewy;
+    src: url(Fonts/Chewy/Chewy.ttf);
+}
+
+@font-face {
+    font-family: fredoka;
+    src: url(Fonts/Fredoka_One/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: lucky;
+    src: url(Fonts/Luckiest_Guy/LuckiestGuy.ttf);
+}
+
+@font-face {
+    font-family: bangers;
+    src: url(Fonts/Bangers/Bangers.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttons{
+    text-decoration: none;
+    
+}
+
+.binary:hover{
+    background-image: url("binary.png");
+    color:#fff;
+    text-shadow: -1px 1px 5px green, 1px -1px 5px green;
+}
+
+.fun:hover{
+    background-image: url("girl.png");
+    line-height: 1;
+}
+
+.fun:hover .fun-text{
+    display: none;
+}
+
+.fun:hover .fun-more-info{
+    display: inline-block;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-shadow: -1px 1px 5px red;
+}
+
+.video:hover{
+    background-image: url("youTube.gif");
+    background-color: white;
+}
+
+.video:hover .video-text{
+    display: none;
+}
+
+.softuni:hover{
+    background-image: url("softuni.gif");
+}
+
+.team:hover{
+    background-image: url("team.gif");
+}
+
+.quote:hover{
+    background-image: url("quote2.jpeg");
+
+}
+
+.quote:hover .info-text-2{
+    display: none;
+}
