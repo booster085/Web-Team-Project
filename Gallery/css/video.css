@@ -26,69 +26,80 @@ iframe {
     }
 }
 @media screen and (max-width: 1024px) {
-    .playlist li a{
+    .playlist li a {
         font-size: 1.5em;
     }
+
     iframe {
         width: 50%;
     }
+
     .navigationTabs li a {
-    text-shadow: 2px 2px 5px #000;
-}
-@media screen and (max-width: 720px) {
-    .current {
-        font-size: 2em;
-    }
-    iframe {
-        width: 80%;
-        margin-bottom: 30px;
-    }
-    .navigationTabs li {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .navigationTabs li a {
-        margin: 0;
-        float: none;
-    }
-    .playlist li a{
-       color: #fff;
-       text-shadow: 2px 2px 10px #000;
+        text-shadow: 2px 2px 5px #000;
     }
 
-}
-@media screen and (max-width: 640px) {
-    .current {
-        font-size: 2em;
-    }
-    iframe {
-        width: 80%;
-    }
+    @media screen and (max-width: 720px) {
+        .current {
+            font-size: 2em;
+        }
 
-}
-@media screen and (max-width: 500px) {
-    iframe {
-        height: 320px ;
+        iframe {
+            width: 80%;
+            margin-bottom: 30px;
+        }
+
+        .navigationTabs li {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .navigationTabs li a {
+            margin: 0;
+            float: none;
+        }
+
+        .playlist li a {
+            color: #fff;
+            text-shadow: 2px 2px 10px #000;
+        }
+
     }
-}
-@media screen and (max-width: 400px) {
-    iframe {
-        height: 250px ;
+    @media screen and (max-width: 640px) {
+        .current {
+            font-size: 2em;
+        }
+
+        iframe {
+            width: 80%;
+        }
+
     }
-}
-@media screen and (max-width: 350px) {
-    .current {
-        font-size: 1em;
+    @media screen and (max-width: 500px) {
+        iframe {
+            height: 320px;
+        }
     }
-    .navigationTabs li {
-        font-size: 1.5em;
+    @media screen and (max-width: 400px) {
+        iframe {
+            height: 250px;
+        }
     }
-}
-@media screen and (max-width: 320px) {
-    iframe {
-        height: 200px ;
+    @media screen and (max-width: 350px) {
+        .current {
+            font-size: 20px;
+        }
+
+        .navigationTabs li {
+            font-size: 1.5em;
+        }
     }
-    .playlist li a{
-        font-size: 1em;
+    @media screen and (max-width: 320px) {
+        iframe {
+            height: 200px;
+        }
+
+        .playlist li a {
+            font-size: 1em;
+        }
     }
 }
