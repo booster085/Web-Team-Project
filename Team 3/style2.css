@@ -142,10 +142,15 @@ footer {
     text-align: left;
 }
 
-text {
+.text-box > span {
     margin: 10px;
     word-wrap: break-word;
 }
+.box > span {
+    margin: 10px;
+    word-wrap: break-word;
+}
+
 .fun-more-info{
     display: none;
 }
