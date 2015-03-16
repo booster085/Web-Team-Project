@@ -14,38 +14,38 @@ body {
 
 .video{
     transition: background-image 0.5s ease-in-out;
-    background-image: url("1.png");
+    background-image: url("../images/1.png");
 
 }
 
 .binary{
     transition: background-image 0.5s ease-in-out;
-    background-image: url("4.png");
+    background-image: url("../images/4.png");
 
 }
 
 .team{
     transition: background-image 0.5s ease-in-out;
-    background-image: url("3.png");
+    background-image: url("../images/3.png");
 
 }
 
 .quote{
     transition: background-image 0.5s ease-in-out;
-    background-image: url("2.png");
+    background-image: url("../images/2.png");
 
 }
 
 .fun{
 
     transition: background-image 0.5s ease-in-out;
-    background-image: url("5.png");
+    background-image: url("../images/5.png");
 
 }
 
 .softuni{
     transition: background-image 0.5s ease-in-out;
-    background-image: url("6.png");
+    background-image: url("../images/6.png");
 }
 
 footer > div{
@@ -53,14 +53,14 @@ footer > div{
 }
 
 .validator-html{
-    background-image: url("validator-html.png");
+    background-image: url("../images/validator-html.png");
     background-size: cover;
     width: 82px;
     height: 17px;
     margin-left: 1%;
 }
 .validator-css{
-    background-image: url("validator-css.png");
+    background-image: url("../images/validator-css.png");
     background-size: cover;
     width: 82px;
     height: 17px;
@@ -327,13 +327,13 @@ a{
 }
 
 .binary:hover{
-    background-image: url("binary.png");
+    background-image: url("../images/binary.png");
     color:#fff;
     text-shadow: -1px 1px 5px green, 1px -1px 5px green;
 }
 
 .fun:hover{
-    background-image: url("girl.png");
+    background-image: url("../images/girl.png");
     line-height: 1;
 }
 
@@ -349,7 +349,7 @@ a{
 }
 
 .video:hover{
-    background-image: url("youTube.gif");
+    background-image: url("../images/youTube.gif");
     background-color: white;
 }
 
@@ -358,15 +358,15 @@ a{
 }
 
 .softuni:hover{
-    background-image: url("softuni.gif");
+    background-image: url("../images/softuni.gif");
 }
 
 .team:hover{
-    background-image: url("team.gif");
+    background-image: url("../images/team.gif");
 }
 
 .quote:hover{
-    background-image: url("quote2.jpeg");
+    background-image: url("../images/quote2.jpeg");
 
 }
 
